@@ -7,49 +7,6 @@ body {
     letter-spacing: 0.02em
 }
 
-.page-goal{
-    font-weight: 700;
-    font-size: 56px;
-    text-align: center;
-    color: #fff;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-}
-
-.about-us{
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    line-height: 1.11;
-}
-
-.people {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-h3{ 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.advantages{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 a {
     text-decoration: none;
     color: #2e2f42;
@@ -84,13 +41,13 @@ ul {
     color: #404bbf;
 }
 
+.navigation{
+    font-style: normal
+}
+
 .navigation-contacts:hover,
 .navigation-contacts:focus {
     color: #404bbf;
-}
-
-.navigation{
-    font-style: normal
 }
 
 .navigation-contacts{
@@ -100,6 +57,15 @@ ul {
 
 .start{
     background: #2e2f42;
+}
+
+.page-goal{
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .order-button{
@@ -120,6 +86,25 @@ ul {
     background-color: #404bbf;
 }
 
+.about-us{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+}
+
+.advantages{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
 .team{
     background: #f4f4fd;
 }
@@ -128,7 +113,23 @@ ul {
     background-color: #FFFFFF;
 }
 
-footer{
+.people {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.offers{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.footer{
     background-color: #2e2f42;
     color:#f4f4fd;
 }
@@ -138,9 +139,10 @@ footer{
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
-    color: #f4f4fd;;
+    color: #4d5ae5;
+    line-height: 1.17
 }
 
-.link-logo-f>span{
-    color: #4d5ae5;
+.logo-footer{
+    color: #f4f4fd;
 }
