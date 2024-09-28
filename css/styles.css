@@ -19,14 +19,22 @@ body {
 .about-us{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
     text-align: center;
     color: #2e2f42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    line-height: 1.11;
 }
 
 h3{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.advantages{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
