@@ -3,24 +3,27 @@ body {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    background-color:#FCFCFC;
+    background-color:#FFFFFF;
+    letter-spacing: 0.02em
 }
 
-h1{
+.page-goal{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
     text-align: center;
     color: #fff;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
-h2{
+.about-us{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
-    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 h3{ 
@@ -45,20 +48,38 @@ ul {
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5
+    
 }
 
 .link-logo>span{
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
-.navigation-list a:hover,
-.navigation-list a:focus {
+.navigation-list{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.navigation-list:hover,
+.navigation-list:focus {
     color: #404bbf;
 }
 
-.navigation-contacts a:hover,
-.navigation-contacts a:focus {
+.navigation-contacts:hover,
+.navigation-contacts:focus {
     color: #404bbf;
+}
+
+.navigation{
+    font-style: normal
+}
+
+.navigation-contacts{
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .start{
@@ -72,6 +93,15 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
+    letter-spacing: 0.04em;
+}
+
+.order-button:hover {
+    background-color: #404bbf;
+}
+
+.order-button:focus {
+    background-color: #404bbf;
 }
 
 .team{
@@ -79,7 +109,7 @@ ul {
 }
 
 .team-card{
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
 }
 
 footer{
